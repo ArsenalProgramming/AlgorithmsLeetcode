@@ -66,12 +66,17 @@ ssh-keygen -t rsa -C “2271034209@qq.com”
 本地目录建仓
 
 git init //把这个目录变成Git可以管理的仓库生成.git，代表是一个git目录
-type null>.gitkeep // 生成.gitkeep，空文件夹上传用
 git add README.md //文件添加到仓库 // 这个报错的？
 git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 
 git commit -m "first commit" //把文件提交到仓库
 git remote add origin git@github.com:wangjiax9/practice.git //关联远程仓库
 git push -u origin master //把本地库的所有内容推送到远程库上
+
+如果github手动改过或别人改过了，就pull再push
+git pull -u origin master
+
+type null>.gitkeep // 生成.gitkeep，空文件夹上传用(不管用)
+find . -type d -empty -exec touch {}/.gitignore \; 空文件夹上传用
 ```
 
 
