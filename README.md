@@ -77,6 +77,14 @@ git pull -u origin master
 
 type null>.gitkeep // 生成.gitkeep，空文件夹上传用(不管用)
 find . -type d -empty -exec touch {}/.gitignore \; 空文件夹上传用
+
+查看本地分支
+git branch
+
+查看远程分支
+git branch -a
+
+手动建的默认是main分支，不知道咋删除？？
 ```
 
 
