@@ -5,7 +5,7 @@
 
 **1、一个标准的 README 应该包含哪些内容呢：**
 
-![image-20210827223437446](AlgorithmsLearning\image\readme目录.jpg)
+![readme目录](https://user-images.githubusercontent.com/49310731/137573721-c8d73d01-5ee0-43f0-ad83-7006fbe65552.jpg)
 
 - 项目背景
 - 安装
