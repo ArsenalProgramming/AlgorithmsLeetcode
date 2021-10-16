@@ -1,5 +1,6 @@
-# hello-world
-仓名：hello-world
+# AlgorithmsLearning
+
+仓名：AlgorithmsLearning
 
 **1、一个标准的 README 应该包含哪些内容呢：**
 
@@ -60,7 +61,8 @@ ssh-keygen -t rsa -C “2271034209@qq.com”
 ```bash
 本地目录建仓
 
-git init //把这个目录变成Git可以管理的仓库
+git init //把这个目录变成Git可以管理的仓库生成.git，代表是一个git目录
+type null>.gitkeep // 生成.gitkeep，空文件夹上传用
 git add README.md //文件添加到仓库 // 这个报错的？
 git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 
 git commit -m "first commit" //把文件提交到仓库
