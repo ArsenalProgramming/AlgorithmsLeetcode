@@ -1,9 +1,11 @@
-# hello-world
-仓名：hello-world
+# AlgorithmsLearning
+
+仓名：AlgorithmsLearning
+
 
 **1、一个标准的 README 应该包含哪些内容呢：**
 
-![image-20210827223437446](..\AlgorithmsLearning\image\readme目录.jpg)
+![image-20210827223437446](AlgorithmsLearning\image\readme目录.jpg)
 
 - 项目背景
 - 安装
