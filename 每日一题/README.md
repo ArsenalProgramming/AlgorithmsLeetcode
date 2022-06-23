@@ -6,6 +6,7 @@ cd hello
 code .
 ```
 具体可参照官网文档，下面只简述快捷的步骤<br>
+[visual studio code官网文档](https://code.visualstudio.com/docs)
 
 ----------------------------------------
 - java:<br>
@@ -51,7 +52,8 @@ Linux：一般是 source activate<br>
 ```
 
 ----------------------------------------
-- C++: vscode官网文档貌似没有C语言的说明，不过估计和C++类似<br>
+- C++: <br>
+- vscode官网文档貌似没有C语言的说明，不过估计和C++类似<br>
 1、C++各种环境安装：<br>
 [GCC on Windows](https://code.visualstudio.com/docs/cpp/config-mingw)<br>
 [Microsoft C++ on Windows](https://code.visualstudio.com/docs/cpp/config-msvc)<br>
